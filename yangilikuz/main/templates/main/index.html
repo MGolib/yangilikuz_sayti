@@ -1,0 +1,25 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+Asosiy sahifa
+{% endblock %}
+
+{% block body %}
+
+<div class="container">
+
+<div class="row">
+  {%for i in kalitsoz%}
+  <div class="col-sm-6 mb-3 karusel">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">{{i.title}}</h5>
+        <p class="card-text">{{i.body}}</p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+</div>
+{% endblock %}

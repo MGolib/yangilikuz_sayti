@@ -1,0 +1,48 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+Texnologiya sahifa
+{% endblock %}
+
+{% block body %}
+<div class="container">
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="https://storage.kun.uz/source/thumbnails/_medium/9/sI-cU7rWo0Svd-RG8CEihWfyesPH56zI_medium.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{texnologiya.0.title}}</h5>
+        <p class="card-text">{{texnologiya.0.body}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://storage.kun.uz/source/thumbnails/_medium/9/Ucfj95IS0XwLrU0xcJOGxSIQF-tEA1F9_medium.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{texnologiya.1.title}}</h5>
+        <p class="card-text">{{texnologiya.1.body}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://storage.kun.uz/source/9/KBYjLkS6m3tS0MuMVxw2rdbNyT-u_TsV.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{texnologiya.2.title}}</h5>
+        <p class="card-text">{{texnologiya.2.body}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://storage.kun.uz/source/9/jM9ZNB6kyOBpNGDjEbdD78i1_JR1GTPA.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{texnologiya.3.title}}</h5>
+        <p class="card-text">{{texnologiya.3.body}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+{% endblock %}

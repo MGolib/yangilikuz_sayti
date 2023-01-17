@@ -1,0 +1,42 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+Dunyo sahifa
+{% endblock %}
+
+{% block body %}
+
+<div class="container">
+<!--  # 1 -qator #######################################################-->
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="https://storage.kun.uz/source/9/ipEVAzGf0kJmQ3pYSdLVnYzaMX0TZqWa.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">{{foreignnews.1.title}}</h5>
+        <p class="card-text">{{foreignnews.1.body}}</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!--  # 2 - qator ######################################################-->
+    <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="https://storage.kun.uz/source/9/LfZKe_xuMqfDWotTy7mIM0dichWObP_y.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">{{foreignnews.0.title}}</h5>
+        <p class="card-text">{{foreignnews.0.body}}</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+{% endblock %}
